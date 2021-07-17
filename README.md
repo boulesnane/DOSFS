@@ -12,7 +12,7 @@ https://people.kyb.tuebingen.mpg.de/spider/
 
 # Example of run
 
-<img src="https://download1979.mediafire.com/jyh4m2nlqgng/15iu33o6ws0i6ds/capturedosfs.PNG">
+<img src="/screenshot/capturedosfs.PNG">
 
 
 
