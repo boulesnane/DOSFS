@@ -22,7 +22,7 @@ From this GUI you can specify what Data you will use by selecting the train data
 or you can just select a complete DATA file and split it to train and test files by entering the right percent value and press ok button :
 <img src="/screenshot/data2.PNG">
 
-Note : it is important to firstly select the type of the used data: discrete or continuous.
+Note : it is important to firstly select the type of the used data: discrete (working on it) or continuous.
 
 Afterwards, we select what objectif function we will use in our dynamic optimization algorithm (1-Filter:  FisherZ or MI,  2-KNN).
 <img src="/screenshot/data3.PNG">
@@ -30,7 +30,7 @@ Afterwards, we select what objectif function we will use in our dynamic optimiza
 Then, we select the used OFSA algorithm and the dynamic optimization algorithm (Dynamic PSO, WD2O).
 <img src="/screenshot/data4.PNG">
 
-In order to evaluate a selected feature subset in the experiments,  SVM or KNN classifiers  are used.
+In order to evaluate a selected feature subset in the experiments,  SVM (adopted it in our work) or KNN classifiers  are used.
 <img src="/screenshot/data5.PNG">
 
 After having all results you can know what features are selected either by the OFSA algorithm and the dynamic optimization algorithm. by pressing ? button as follows:
