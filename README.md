@@ -6,12 +6,13 @@ Feature selection is a key issue in machine learning and data mining. A great de
 Motivated by the fact that the problem of online feature selection is a dynamic problem whose dimension (feature) changes over time, we propose a hybridization between the dynamic optimization algorithms and the Online Streaming Feature Selection algorithm (OSFS) (https://github.com/kuiy/LOFS), whose objective is to find a subset of optimal attributes to ensure better classification of unclassified data. 
 
 # Requirements
-weka
+Weka
 
 https://people.kyb.tuebingen.mpg.de/spider/
 
 # Example of run
 
+![alt text](https://www.mediafire.com/view/15iu33o6ws0i6ds)
 
 
 
