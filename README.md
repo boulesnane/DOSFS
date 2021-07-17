@@ -24,9 +24,14 @@ or you can just select a complete DATA file and split it to train and test files
 
 Note : it is important to firstly select the type of the used data: discrete or continuous.
 
-Afterwards, we select what objectif function we will use in our dynamic optimization algorithm (1-Filter;  FisherZ or MI,  2-KNN).
+Afterwards, we select what objectif function we will use in our dynamic optimization algorithm (1-Filter:  FisherZ or MI,  2-KNN).
+<img src="/screenshot/data3.PNG">
+
 Then, we select the used OFSA algorithm and the dynamic optimization algorithm (Dynamic PSO, WD2O).
+<img src="/screenshot/data4.PNG">
+
 In order to evaluate a selected feature subset in the experiments,  SVM or KNN classifiers  are used.
+<img src="/screenshot/data5.PNG">
 
 # Reference
 Please reference this work as follows: 
