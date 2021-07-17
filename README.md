@@ -14,7 +14,7 @@ https://people.kyb.tuebingen.mpg.de/spider/
 
 
 # Reference
-Please reference this work as: 
+Please reference this work as follows: 
 
 Abdennour Boulesnane and Souham Meshoul. "Effective Streaming Evolutionary Feature Selection Using Dynamic Optimization." IFIP International Conference on Computational Intelligence and Its Applications. Springer, Cham, 2018.
 # link
