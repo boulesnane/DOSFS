@@ -33,6 +33,11 @@ Then, we select the used OFSA algorithm and the dynamic optimization algorithm (
 In order to evaluate a selected feature subset in the experiments,  SVM or KNN classifiers  are used.
 <img src="/screenshot/data5.PNG">
 
+After having all results you can know what features are selected either by the OFSA algorithm and the dynamic optimization algorithm. by pressing ? button as follows:
+<img src="/screenshot/data55.PNG">
+
+<img src="/screenshot/data6.PNG">
+
 # Reference
 Please reference this work as follows: 
 
