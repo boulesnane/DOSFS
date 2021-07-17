@@ -12,6 +12,8 @@ https://people.kyb.tuebingen.mpg.de/spider/
 
 # Example of run
 
+The main file is : DOFS.m, so just run it after that you will get the following interface:
+
 <img src="/screenshot/capturedosfs.PNG">
 
 
