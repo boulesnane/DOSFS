@@ -5,8 +5,7 @@ Feature selection is a key issue in machine learning and data mining. A great de
 # Requirements
 
 https://github.com/kuiy/LOFS
-
-https://people.kyb.tuebingen.mpg.de/spider/tutorial.html
+https://people.kyb.tuebingen.mpg.de/spider/
 
 # Reference
 please reference this work as: 
