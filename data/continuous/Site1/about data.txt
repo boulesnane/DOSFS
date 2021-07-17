@@ -1,0 +1,10 @@
+site: http://featureselection.asu.edu/datasets.php
+
+FEATURE SELECTION DATASETS
+
+
+Data Set	#Instances	#Features	#Classes	Keywords
+ALLAML		    72 	           7129              2            continuous,binary
+arcene	            200	           10000	     2	          continuous,binary	
+madelon	            2600	   500	             2	          continuous,binary
+SMK_CAN_187	    187	           19993	     2	          continuous,binary

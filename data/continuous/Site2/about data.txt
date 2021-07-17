@@ -1,0 +1,137 @@
+site: http://datam.i2r.a-star.edu.sg/datasets/krbd/
+
+Kent Ridge Bio-medical Dataset
+
+
+Breast Cancer
+number features:24481
+train:78 
+test:19
+
+Publication:
+
+Laura J. van't Veer, et al. "Gene Expression Profiling Predicts Clinical Outcome of Breast Cancer", Nature, 415:530-536, 2002
+
+Raw Data:
+
+http://www.rii.com/publications/2002/vantveer.htm
+
+Description:
+
+Patients outcome prediction for breast cancer. The training data contains 78 patient samples, 34 of which are from patients who had developed distance metastases within 5 years (labelled as "relapse"), the rest 44 samples are from patients who remained healthy from the disease after their initial diagnosis for interval of at least 5 years (labelled as "non-relapse"). Correspondingly, there are 12 relapse and 7 non-relapse samples in the testing data set. The number of genes is 24481. We replaced "NaN" symbol in original ratio data with 100.0.
+
+Download:
+
+Our transformed .data and .names format files are available here.
+********************************************************************************************************************************
+Central Nervous System
+
+number features:7129 
+train+test:60 
+
+
+Publication:
+
+Scott L. Pomeroy, et al. "Prediction of Central Nervous System Embryonal Tumour Outcome Based on Gene Expression", Nature, 415:436-442, January 2002.
+
+Raw Data:
+
+http://www-genome.wi.mit.edu/mpr/CNS/
+
+Description:
+
+Patients outcome prediction for central nervous system embryonal tumor. Only dataset C mentioned in the paper that is used to analyse the outcome of the treatment is provided here. Survivors are patients who are alive after treatment whiles the failures are those who succumbed to their disease. The data set contains 60 patient samples, 21 are survivors (labelled as "Class1") and 39 are failures (labelled as "Class0"). There are 7129 genes in the dataset.
+
+Download:
+
+Our transformed .data and .names format files are available here.
+
+********************************************************************************************************************************
+Colon Tumor
+
+number features:2000
+train+test:62
+
+Publication:
+
+U. Alon, et al. "Broad Patterns of Gene Expression Revealed by Clustering Analysis of Tumor and Normal Colon Tissues Probed by Oligonucleotide Arrays", PNAS, 96:6745-6750, 1999
+
+Raw Data:
+
+http://microarray.princeton.edu/oncology/affydata/index.html
+
+Description:
+
+Contains 62 samples collected from colon-cancer patients. Among them, 40 tumor biopsies are from tumors (labelled as "negative") and 22 normal (labelled as "positive") biopsies are from healthy parts of the colons of the same patients. Two thousand out of around 6500 genes were selected based on the confidence in the measured expression levels.
+
+Download:
+
+Our transformed .data and .names format files are available here.
+
+
+********************************************************************************************************************************
+Leukemia (ALL V.S. AML)
+
+number features:7129
+train:38 
+test:34
+
+Publication:
+
+T.R. Golub, et al. "Molecular Classification of Cancer: Class Discovery and Class Prediction by Gene Expression Monitoring". Science, 286:531-537, October 1999
+
+Raw Data:
+
+http://www-genome.wi.mit.edu/cgi-bin/cancer/datasets.cgi
+
+Description:
+
+Training dataset consists of 38 bone marrow samples (27 ALL and 11 AML), over 7129 probes from 6817 human genes. Also 34 samples testing data is provided, with 20 ALL and 14 AML.
+
+Download:
+
+Our transformed .data and .names format files are available here.
+********************************************************************************************************************************
+Lung Cancer (Brigham and Women's Hospital, Harvard Medical School)
+
+number features:12534
+train:32 
+test:149
+
+Publication:
+
+Gavin J.Gordon, et al."Translation of Microarray Data into Clinically Relevant Cancer Diagnostic Tests Using Gege Expression Ratios in Lung Cancer And Mesothelioma". Cancer Research, 62:4963-4967, 2002
+
+Raw Data:
+
+http://www.chestsurg.org/microarray.htm
+
+Description:
+
+Classification between malignant pleural mesothelioma (MPM) and adenocarcinoma (ADCA) of the lung. There are 181 tissue samples (31 MPM and 150 ADCA). The training set contains 32 of them, 16 MPM and 16 ADCA. The rest 149 samples are used for testing. Each sample is described by 12533 genes.
+
+Download:
+
+Our transformed .data and .names format files are available here.
+********************************************************************************************************************************
+Ovarian Cancer (NCI PBSII Data)
+
+number features:15155
+train+test:253
+
+Publication:
+
+Emanuel F Petricoin III, et al. "Use of Proteomic Patterns in Serum to Identify Ovarian Cancer". The Lancet, 359:572-577, February, 2002
+
+Raw Data:
+
+http://clinicalproteomics.steem.com/
+
+Description:
+
+The goal of this experiment is to identify proteomic patterns in serum that distinguish ovarian cancer from non-cancer. This study is significant to women who have a high risk of ovarian cancer due to family or personal history of cancer. The proteomic spectra were generated by mass spectroscopy and the data set provided here is 6-19-02, which includes 91 controls (Normal) and 162 ovarian cancers. The raw spectral data of each sample contains the relative amplitude of the intensity at each molecular mass / charge (M/Z) identity. There are total 15154 M/Z identities. The intensity values were normalized according to the formula: NV = (V-Min)/(Max-Min), where NV is the normalized value, V the raw value, Min the minimum intensity and Max the maximum intensity. The normalization is done over all the 253 samples for all 15154 M/Z identities. After the normalization, each intensity value is to fall within the range of 0 to 1.
+
+Download:
+
+Our transformed .data and .names format files are available here.
+********************************************************************************************************************************

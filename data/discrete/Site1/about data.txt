@@ -1,0 +1,7 @@
+site: http://featureselection.asu.edu/datasets.php
+
+FEATURE SELECTION DATASETS
+
+
+Data Set	#Instances	#Features	#Classes	Keywords
+colon		    62		   2000              2            discrete,binary
