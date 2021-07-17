@@ -1,0 +1,68 @@
+function a = j48(hyper)
+%=============================================================================
+% j48 Decision Tree  [WEKA Required]
+%=============================================================================
+% a0=j48(hyperParam)
+%
+% Generates a J48 wrapper on the WEKA J48 implementation with given hyperparameters.
+% Original Implementation by Eibe Frank.
+%
+%   Hyperparameters (with defaults)
+%   unpruned=0      -- set to 1 to use unpruned trees
+%   confidence=0.25 -- confidence threshold for pruning
+%   number=2        -- minimum number of instances per leaf
+%   reduced_error=0 -- set to 1 to use reduced error pruning
+%   folds=3         -- number of folds for reduced error pruning
+%   binary=0        -- set to 1 to use binary split for nominal attributes
+%   laplace=0       -- set to 1 if laplace smoothing technique is used for
+%                   predicted probabilities
+%   raising=1       -- set to 0 if subtree raising should not be performed
+%   cleanup=1       -- set to 0 if no cleaning up after the tree has been
+%                   built%
+%   Model
+%    tree               -- the tree
+%    feats              -- used features
+%   
+% Methods:
+%  train, test, plot (for 2d data), disp
+%
+% Example:
+%
+% d=gen(toy2d('2circles','l=200'));
+% s0=j48;
+% s0.confidence=0.5
+% s0.binary=1
+% [cr,ca]=train(cv(s0),d); loss(cr), pause
+% 
+% [r,a]=train(s0,d);
+% disp('probability output'), plot(a,d), pause,
+% try, disp(a), catch, end
+%=============================================================================
+% Reference :
+% Author    :
+% Link      :
+%=============================================================================
+
+
+%parameters
+a.unpruned=0;
+a.confidence=0.25;
+a.number=2;
+a.reduced_error=0;
+a.folds=3;
+a.binary=0;
+a.laplace=0;
+a.raising=1;
+a.cleanup=1;
+
+%model
+a.tree=[];
+a.feats=[];
+
+
+p=algorithm('j48');
+a= class(a,'j48',p);
+
+if nargin==1,
+    eval_hyper;
+end;
