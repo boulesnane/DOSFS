@@ -16,7 +16,13 @@ The main file is : DOFS.m, so just run it after that you will get the following 
 
 <img src="/screenshot/capturedosfs.PNG">
 
+From this GUI you can specifiy what Data you will use by selecting the train data file and the test data file from your computer,
+<img src="/screenshot/data1.PNG">
 
+or you can just select a complet DATA file and split it to train and test files by entering the right percent value and press ok button :
+<img src="/screenshot/data2.PNG">
+
+Note : it is important to firstly select the type of the used data: discrete or continuous.
 
 # Reference
 Please reference this work as follows: 
